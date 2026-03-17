@@ -14,8 +14,8 @@ A student submission for a Machine Learning lab exam, implementing a complete bi
 | `Feature2` | int64 | Continuous numeric feature |
 | `Target` | object | Binary label — `"Yes"` or `"No"` |
 
-- **Raw rows:** 1 020 (20 rows have missing `Target` → dropped → **1 000 usable rows**)
-- **Outlier removal:** 1 extreme `Feature1` value (10 000.0) removed via the IQR method → **999 final rows**
+- **Raw rows:** 1020 (20 rows have missing `Target` → dropped → **1000 usable rows**)
+- **Outlier removal:** 1 extreme `Feature1` value (10000.0) removed via the IQR method → **999 final rows**
 - **Class balance:** `No` = 784 (78.5 %), `Yes` = 215 (21.5 %) — moderately imbalanced
 
 ---
